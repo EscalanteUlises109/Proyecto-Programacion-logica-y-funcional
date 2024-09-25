@@ -1,27 +1,34 @@
 # Proyecto-Programacion-logica-y-funcional
 Proyecto 9 
-%------------------------------------------------------------------------------
-% Módulo:       hola_mundo
+
+
+% Módulo:       CRUD Mnesia
+
 % Propósito:    construir una base de datos distribuida utilizando Mnesia. En el cual Se implemente un CRUD  proporcionando una comprensión práctica de cómo funciona Mnesia 
                 y cómo puede ser utilizado en aplicaciones distribuidas.Se aprendera como configurar la replicación de datos entre nodos, manejar la
                 persistencia en memoria y disco, y explorarán cómo 
                 Mnesia puede ser integrada con otros componentes de un sistema basado en Erlang
-%
-% Autor:        Escalante Hernandez Kevin Ulises 21211937
-                Castro Alvarado Jorge Luis 22211533
-                Hernandez Hernandez Manuela 22210768
-                Diaz Morales Katherine Giselle
+
+
+
+% Autores:        
+Escalante Hernandez Kevin Ulises 21211937
+
+Castro Alvarado Jorge Luis 22211533
+
+Hernandez Hernandez Manuela 22210768
+
+Diaz Morales Katherine Giselle
+
+
                 
 % Fecha:        24 de Septiembre de 2024
-%
-% Descripción:
-% Este Proyecto Permite Crear Un CRUD en lo que se conoce como Mnesia.
-% Es un ejemplo introductorio para mostrar la estructura básica de un programa
 
-% Dependencias:
-% Ninguna.
-%
-% Codigo:
+
+% Descripción:
+Este Proyecto Permite Crear Un CRUD en lo que se conoce como Mnesia.
+Es un ejemplo introductorio para mostrar la estructura básica de un programa
+
 -module(base_de_datos).
 -compile(export_all).
 
@@ -76,6 +83,7 @@ borrar_tabla(NombreTabla) ->
 % Parar Mnesia
 detener() ->
     mnesia:stop().
+
 
 %Codigo documentando:
 %1. Módulo y compilación
