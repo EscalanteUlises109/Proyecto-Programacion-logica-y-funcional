@@ -10,7 +10,7 @@ Proyecto 9
                 Mnesia puede ser integrada con otros componentes de un sistema basado en Erlang
 
 
-
+# Asciinema link:https://asciinema.org/a/j3rFr1MtorShx6zTmPwImhtsN
 % Autores:        
 Escalante Hernandez Kevin Ulises 21211937
 
