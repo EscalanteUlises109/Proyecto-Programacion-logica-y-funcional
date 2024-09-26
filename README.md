@@ -13,7 +13,7 @@ Se aprenderá a configurar la replicación de datos entre nodos, manejar la pers
 - Escalante Hernández Kevin Ulises 21211937  
 - Castro Alvarado Jorge Luis 22211533  
 - Hernández Hernández Manuela 22210768  
-- Díaz Morales Katherine Giselle 
+- Díaz Morales Katherine Giselle 22210302
 
 
                 
